@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <title>Blogs</title> 
+       <link rel="stylesheet" href="styles.css.css"> ;
+       <style>
+
+     .split {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+
+   .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 20px;
+  }
+  
+    .center img {
+    height: 200px;
+    width: 200px;
+   /* border-radius: 100%; */
+  }
+
+  }
+  * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+       </style>
+    </head>
+<body>
+     <div class="split-right">
+     <div class="center">
+         <h1>Blogs:</h1>
+         <p>CLick on the below pictures to open the blogs related to <strong style="color:crimson">Wellness</strong>
+         and <strong style="color:crimson">Travel.</strong></p>
+        <div class="row">
+                <div class="column">
+                <a href="https://keerthananuti12.wixsite.com/website" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" style="width:100%"></a>
+                </div>
+                <div class="column">
+                <a href="https://keerthananuti13.wixsite.com/website" class="blog-img"><img src="images/Travel.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" style="width:100%"></a>
+                </div>
+              </div> 
+        </div>
+     </div>
+    <div class="split left">
+            <div class="centered">
+                    <img src="Keerthana.jpg" alt="Keerthana Nuti">
+             <h1>Keerthana Nuti</h1>
+             <div>
+                    <ul class="nav">
+                            <li><a href="index.html"><b>Home</b></a></li>
+                            <li><a href="Educational Background.html"><b>Educational Background</b></a></li>
+                            <li><a href="Project Experiences.html"><b>Project Experiences</b></a></li>
+                            <li><a href="Learning interests during B.Tech.html"><b>Learning interests during B.tech</b></a></li>
+                            <li><a href="Hobbies.html"><b>Hobbies</b></a></li>
+                            <li><a href="Blogs.html"><b>Blogs</b></a></li>
+                            <li><a href="Some memories.html"><b>Some memories</b></a></li>
+                            <li><a href="Useful Weblinks.html"><b>Useful Weblinks</b></a></li>
+                            <li><a href="Contact details.html"><b>Contact Details</b></a></li>
+                     </ul>
+                    </nav>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
